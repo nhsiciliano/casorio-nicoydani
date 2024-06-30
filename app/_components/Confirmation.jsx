@@ -68,7 +68,7 @@ export default function Confirmation() {
                             onChange={formik.handleChange}
                             onBlur={formik.handleBlur}
                             error={formik.touched.participantes && Boolean(formik.errors.participantes)}
-                            helperText={formik.touched.participantes && formik.errors.participantes}
+                            helpertext={formik.touched.participantes && formik.errors.participantes}
                         />
                         <Button
                             color='brown'
