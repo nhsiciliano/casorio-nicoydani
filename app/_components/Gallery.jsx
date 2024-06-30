@@ -12,7 +12,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={300}
                                 height={300}
-                                class="block h-full w-full rounded-lg object-cover object-center"
+                                className="block h-full w-full rounded-lg object-cover object-center"
                                 src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719431620/F82DD7A4-0A14-4F7F-A7E7-63CC33A4B0BE_wvffv0.jpg" />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
@@ -20,7 +20,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={300}
                                 height={300}
-                                class="block h-full w-full rounded-lg object-cover object-center"
+                                className="block h-full w-full rounded-lg object-cover object-center"
                                 src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719611929/paris056_zmcm5e.png" />
                         </div>
                         <div className="w-full p-1 md:p-2">
@@ -28,7 +28,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={300}
                                 height={300}
-                                class="block h-full w-full rounded-lg object-cover object-center"
+                                className="block h-full w-full rounded-lg object-cover object-center"
                                 src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719431619/E2D62994-9267-46E4-81F8-CA80912CE2DE_pcxzjw.jpg" />
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={300}
                                 height={300}
-                                class="block h-full w-full rounded-lg object-cover object-center"
+                                className="block h-full w-full rounded-lg object-cover object-center"
                                 src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719431620/CE482B4B-E3AC-4959-8CB3-8B6FAF90F380_pqjozx.jpg" />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
@@ -46,7 +46,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={300}
                                 height={300}
-                                class="block h-full w-full rounded-lg object-cover object-center"
+                                className="block h-full w-full rounded-lg object-cover object-center"
                                 src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719611458/paris467_uhj4ip.png" />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
@@ -54,7 +54,7 @@ export default function Gallery() {
                                 alt="gallery"
                                 width={300}
                                 height={300}
-                                class="block h-full w-full rounded-lg object-cover object-center"
+                                className="block h-full w-full rounded-lg object-cover object-center"
                                 src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719611929/cope345_krclj2.png" />
                         </div>
                     </div>

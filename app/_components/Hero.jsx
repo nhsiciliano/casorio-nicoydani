@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
+import { Parallax } from 'react-scroll-parallax';
 import Image from "next/image";
 
 export default function Hero() {
@@ -67,9 +68,11 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-            <div className="mt-6 p-8 contrast-75 md:p-16 md:mt-0 md:h-[820px] md:w-[760px] flex justify-center">
-                <img src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719447684/heropiccope_j5ylfg.png" alt="Boda" className="w-full h-full bg-cover shadow-lg" />
-            </div>
+            <Parallax scale={[1.3, 0.5, 'easeInQuad']}>
+                <div className="mt-6 p-8 contrast-75 md:p-16 md:mt-0 md:h-[820px] md:w-[760px] flex justify-center">
+                    <Image src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719447684/heropiccope_j5ylfg.png" alt="Boda" width={700} height={800} className="w-full h-full bg-cover shadow-lg" />
+                </div>
+            </Parallax>
         </section>
     )
 }
