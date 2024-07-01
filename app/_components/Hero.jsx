@@ -15,9 +15,10 @@ export default function Hero() {
         }, 1000);
 
         return () => clearInterval(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    function calculateTimeLeft() {
+    const calculateTimeLeft = () => {
         const difference = +weddingDate - +new Date();
         let timeLeft = {};
 
