@@ -52,7 +52,7 @@ export default function Confirmation() {
                     de las personas que asistirán y hacé click en enviar.
                 </h1>
             </div>
-            <div>
+            <div className='mb-5'>
                 <form onSubmit={formik.handleSubmit}>
                     <div className='flex flex-col md:flex-row gap-2 w-full'>
                         <Input
@@ -78,6 +78,13 @@ export default function Confirmation() {
                         </Button>
                     </div>
                 </form>
+            </div>
+            <div>
+                <h1 className="text-3xl text-[#726d5d] text-center md:text-4xl font-bold mb-4">Salud, Dinero y Amor</h1>
+                <h1 className="text-xl text-white text-center md:text-3xl font-normal px-12 lg:px-64 mb-2">
+                    Amor nos sobra, salud no nos podemos quejar y dinero.. Si querés ayudarnos para nuestra luna de miel envialo al siguiente alias:
+                </h1>
+                <h1 className="text-xl text-[#726d5d] text-center mt-7 md:text-3xl font-normal px-12 lg:px-64 mb-2">NICOYDANI.CASORIO.24</h1>
             </div>
         </div>
     )

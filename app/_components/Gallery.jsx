@@ -13,7 +13,7 @@ export default function Gallery() {
                                 width={300}
                                 height={300}
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719431620/F82DD7A4-0A14-4F7F-A7E7-63CC33A4B0BE_wvffv0.jpg" />
+                                src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719431619/74F61368-663C-4EBD-B01B-709808A18E55_eu20un.jpg" />
                         </div>
                         <div className="w-1/2 p-1 md:p-2">
                             <Image
@@ -21,7 +21,7 @@ export default function Gallery() {
                                 width={300}
                                 height={300}
                                 className="block h-full w-full rounded-lg object-cover object-center"
-                                src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719611929/paris056_zmcm5e.png" />
+                                src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1720655292/fotogatusi_vlqgmu.png" />
                         </div>
                         <div className="w-full p-1 md:p-2">
                             <Image

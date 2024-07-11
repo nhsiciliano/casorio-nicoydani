@@ -7,7 +7,7 @@ export default function Schedule() {
             <Parallax scale={[1.2, 0.5, 'easeInQuad']}>
                 <div className="mt-6 p-8 saturate-100 md:p-16 md:mt-0 md:h-[720px] md:w-[560px] flex justify-center">
                     <Image
-                        src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719431619/74F61368-663C-4EBD-B01B-709808A18E55_eu20un.jpg"
+                        src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1720654584/IMG_9666_yiuygx.jpg"
                         alt="Boda"
                         width={500}
                         height={700}
