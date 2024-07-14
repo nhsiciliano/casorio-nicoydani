@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Gallery() {
     return (
         <div className="bg-[#726d5d]">
-            <div className="container mx-auto px-5 py-8 md:px-10 md:py-14 lg:px-32">
+            <div className="container mx-auto px-3 py-8 md:px-10 md:py-14 lg:px-32">
                 <div className="-m-1 flex flex-wrap md:-m-2">
                     <div className="flex w-1/2 flex-wrap">
                         <div className="w-1/2 p-1 md:p-2">

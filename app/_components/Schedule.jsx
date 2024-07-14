@@ -29,11 +29,11 @@ export default function Schedule() {
                 <div className="flex flex-col items-center justify-center gap-8 mt-8">
                     <div>
                         <h1 className="text-[#726d5d] text-4xl">CEREMONIA</h1>
-                        <p className="text-[#726d5d] text-3xl">18:30 HS</p>
+                        <p className="text-[#726d5d] text-3xl">17:45 HS</p>
                     </div>
                     <div>
                         <h1 className="text-[#726d5d] text-4xl">RECEPCIÓN</h1>
-                        <p className="text-[#726d5d] text-3xl">19:00 HS</p>
+                        <p className="text-[#726d5d] text-3xl">18:30 HS</p>
                     </div>
                 </div>
             </div>

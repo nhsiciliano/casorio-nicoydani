@@ -79,6 +79,7 @@ export default function Confirmation() {
                     </div>
                 </form>
             </div>
+            <hr className='bg-[#726d5d] text-[#726d5d] w-[80%] h-0.5'/>
             <div>
                 <h1 className="text-3xl text-[#726d5d] text-center md:text-4xl font-bold mb-4">Salud, Dinero y Amor</h1>
                 <h1 className="text-xl text-white text-center md:text-3xl font-normal px-12 lg:px-64 mb-2">
