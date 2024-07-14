@@ -38,9 +38,9 @@ export default function Hero() {
             <div className="bg-[#ddc685] rounded-xl text-center md:w-full lg:w-1/2 mx-4 py-14 md:py-24 md:px-4 mt-4 md:mt-0 ">
                 <Image src="/rings.svg" alt="Hero" width={120} height={120} className="m-auto" />
                 <h1 className="text-5xl text-[#726d5d] md:text-6xl font-semibold mb-4">¡Nos Casamos!</h1>
-                <p className="text-3xl text-black font-normal mb-4">Nos encantaría que nos acompañaras en nuestro día especial.</p>
+                <p className="text-3xl text-black font-normal mb-4">Y queremos que nos acompañes en nuestro día especial.</p>
                 <p className="text-4xl text-black font-medium mb-4">18.10.2024</p>
-                <h2 className="text-2xl font-medium mb-4 mt-6">Cuenta regresiva:</h2>
+                <h2 className="text-2xl font-medium mb-4 mt-6">Faltan:</h2>
                 <div className="flex justify-center items-center px-3 gap-6">
                     <div className='flex flex-col items-center justify-center text-lg font-medium'>
                         <span>{timeLeft.days}</span>

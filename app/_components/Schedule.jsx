@@ -28,12 +28,12 @@ export default function Schedule() {
                 <p className="text-2xl text-black font-normal mb-4">Preparate para un día lleno de alegría y diversión.</p>
                 <div className="flex flex-col items-center justify-center gap-8 mt-8">
                     <div>
-                        <h1 className="text-[#726d5d] text-4xl">CEREMONIA</h1>
-                        <p className="text-[#726d5d] text-3xl">17:45 HS</p>
+                        <h1 className="text-[#726d5d] text-3xl">CEREMONIA</h1>
+                        <p className="text-[#726d5d] text-2xl">17:45 HS</p>
                     </div>
                     <div>
-                        <h1 className="text-[#726d5d] text-4xl">RECEPCIÓN</h1>
-                        <p className="text-[#726d5d] text-3xl">18:30 HS</p>
+                        <h1 className="text-[#726d5d] text-3xl">RECEPCIÓN</h1>
+                        <p className="text-[#726d5d] text-2xl">18:30 HS</p>
                     </div>
                 </div>
             </div>

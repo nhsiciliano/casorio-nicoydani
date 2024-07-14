@@ -79,13 +79,15 @@ export default function Confirmation() {
                     </div>
                 </form>
             </div>
-            <hr className='bg-[#726d5d] text-[#726d5d] w-[80%] h-0.5'/>
+            <hr className='bg-[#726d5d] text-[#726d5d] w-[80%] h-0.5' />
             <div>
                 <h1 className="text-3xl text-[#726d5d] text-center md:text-4xl font-bold mb-4">Salud, Dinero y Amor</h1>
                 <h1 className="text-xl text-white text-center md:text-3xl font-normal px-12 lg:px-64 mb-2">
                     Amor nos sobra, salud no nos podemos quejar y dinero.. Si querés ayudarnos para nuestra luna de miel envialo al siguiente alias:
                 </h1>
-                <h1 className="text-xl text-[#726d5d] text-center mt-7 md:text-3xl font-normal px-12 lg:px-64 mb-2">NICOYDANI.CASORIO.24</h1>
+                <div className='flex justify-center w-[300px] md:w-[380px] mx-auto rounded-lg mt-7 border-2 border-[#726d5d] p-2'>
+                    <h1 className="text-xl text-[#726d5d] text-center md:text-3xl font-normal px-3 lg:px-64">NICOYDANI.CASORIO.24</h1>
+                </div>
             </div>
         </div>
     )
