@@ -1,5 +1,7 @@
 import Image from "next/image"
 import { Parallax } from './Providers'
+import { Button } from './material-tailwind'
+import Link from "next/link"
 
 export default function Schedule() {
     return (
@@ -16,17 +18,19 @@ export default function Schedule() {
                 </div>
             </Parallax>
             <div className="bg-[#ddc685] rounded-xl text-center md:w-full lg:w-1/2 mx-4 py-16 md:py-10 mt-4 mb-8 md:mt-0 ">
-                <div className="flex flex-col items-center justify-center gap-2 mb-4">
-                    <Image
-                        src="/checklist.svg"
-                        alt="Hero"
-                        width={60}
-                        height={60}
-                    />
-                    <h1 className="text-3xl text-black md:text-4xl font-normal">Detalles de la boda</h1>
-                </div>
-                <p className="text-2xl text-black font-normal mb-4">Preparate para un día lleno de alegría y diversión.</p>
-                <div className="flex flex-col items-center justify-center gap-8 mt-8">
+                <h1 className="text-3xl text-[#726d5d] md:text-5xl font-medium mb-2">Fiesta: Estancia La Linda</h1>
+                <p className="text-2xl px-3 text-center text-white font-normal">Manuel Luis de Oliden 4651, Tortuguitas, Provincia de Buenos Aires</p>
+                <Link
+                    href='https://www.google.com/maps/place/Estancia+La+Linda+Eventos/@-34.472154,-58.7739365,15z/data=!4m6!3m5!1s0x95bc98e653d416b5:0xa321ba3b8a830551!8m2!3d-34.472154!4d-58.7739365!16s%2Fg%2F11bvtgtj3_?entry=ttu'
+                    target="_blank"
+                >
+                    <Button variant="outlined" size="lg" color="brown" className="flex items-center gap-3 mx-auto mt-5">
+                        <Image src="/maps.svg" alt="Maps" width={30} height={30} />
+                        <p className="text-white">Ver ubicación en el mapa</p>
+                    </Button>
+                </Link>
+                <h1 className="text-[#726d5d] text-xl font-semibold mt-5">DRESS CODE: FORMAL/ELEGANTE</h1>
+                <div className="flex flex-col items-center justify-center md:flex-row gap-8 mt-5">
                     <div>
                         <h1 className="text-[#726d5d] text-3xl">CEREMONIA</h1>
                         <p className="text-[#726d5d] text-2xl">17:45 HS</p>

@@ -4,9 +4,12 @@ import * as yup from 'yup'
 import { useFormik } from 'formik'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
-import { Button, Input } from '@material-tailwind/react';
+import { Button, Input, Spinner } from '@material-tailwind/react';
+import { useState } from 'react';
 
 export default function Confirmation() {
+
+    const [loading, setLoading] = useState(false)
 
     const validationSchema = yup.object().shape({
         participantes: yup.string().required('Ingresar nombre y apellido de los asistentes.'),
@@ -20,6 +23,7 @@ export default function Confirmation() {
         validationSchema,
         onSubmit: (values, { setSubmitting, resetForm }) => {
             try {
+                setLoading(true);
                 emailjs
                     .send(process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID, process.env.NEXT_PUBLIC_EMAIL_TEMPLE_ID, values, process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY)
                     .then((result) => {
@@ -31,6 +35,7 @@ export default function Confirmation() {
                             position: 'top',
                             confirmButtonColor: '#A50104',
                         });
+                        setLoading(false);
                         setSubmitting(false);
                         resetForm();
                     }, (error) => {
@@ -70,12 +75,21 @@ export default function Confirmation() {
                             error={formik.touched.participantes && Boolean(formik.errors.participantes)}
                             helpertext={formik.touched.participantes && formik.errors.participantes}
                         />
-                        <Button
-                            color='brown'
-                            type='submit'
-                        >
-                            Enviar
-                        </Button>
+                        {
+                            loading ?
+                                (
+                                    <div className='bg-[#5e2c04] p-2 rounded-lg'>
+                                        <Spinner className='mx-auto md:mx-7' color='purple'/>
+                                    </div>
+                                ) : (
+                                    <Button
+                                        color='brown'
+                                        type='submit'
+                                    >
+                                        Enviar
+                                    </Button>
+                                )
+                        }
                     </div>
                 </form>
             </div>
