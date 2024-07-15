@@ -34,7 +34,7 @@ export default function Hero() {
     }
 
     return (
-        <section className="flex flex-col bg-[#bab296] lg:flex-row items-center justify-between">
+        <div className="flex flex-col bg-[#bab296] lg:flex-row items-center justify-between">
             <div className="bg-[#ddc685] rounded-xl text-center md:w-full lg:w-1/2 mx-4 py-14 md:py-24 md:px-4 mt-4 md:mt-0 ">
                 <Image src="/rings.svg" alt="Hero" width={120} height={120} className="m-auto" />
                 <h1 className="text-5xl text-[#726d5d] md:text-6xl font-semibold mb-4">¡Nos Casamos!</h1>
@@ -74,6 +74,6 @@ export default function Hero() {
                     <Image src="https://res.cloudinary.com/dtai5c6a3/image/upload/v1719447684/heropiccope_j5ylfg.png" alt="Boda" width={700} height={800} className="w-full h-full bg-cover shadow-lg" />
                 </div>
             </Parallax>
-        </section>
+        </div>
     )
 }

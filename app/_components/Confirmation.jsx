@@ -32,7 +32,7 @@ export default function Confirmation() {
                             title: 'Muchas gracias!',
                             text: 'Tu confirmación fue exitosa.',
                             icon: 'success',
-                            position: 'top',
+                            position: 'center',
                             confirmButtonColor: '#A50104',
                         });
                         setLoading(false);
