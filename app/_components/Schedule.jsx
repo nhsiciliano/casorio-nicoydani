@@ -24,7 +24,7 @@ export default function Schedule() {
                     href='https://www.google.com/maps/place/Estancia+La+Linda+Eventos/@-34.472154,-58.7739365,15z/data=!4m6!3m5!1s0x95bc98e653d416b5:0xa321ba3b8a830551!8m2!3d-34.472154!4d-58.7739365!16s%2Fg%2F11bvtgtj3_?entry=ttu'
                     target="_blank"
                 >
-                    <Button variant="outlined" size="lg" color="brown" className="flex items-center gap-3 mx-auto mt-5">
+                    <Button variant="outlined" size="sm" color="brown" className="flex items-center gap-3 mx-auto mt-5">
                         <Image src="/maps.svg" alt="Maps" width={30} height={30} />
                         <p className="text-white">Ver ubicación en el mapa</p>
                     </Button>

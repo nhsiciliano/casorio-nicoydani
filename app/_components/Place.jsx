@@ -12,7 +12,7 @@ export default function Place() {
                 href='https://www.google.com/maps/place/Sede+Comunal+6/@-34.6058329,-58.4327993,15z/data=!4m6!3m5!1s0x95bccb989a6cf453:0xe5486e046f4ffce4!8m2!3d-34.6058329!4d-58.4327993!16s%2Fg%2F1tfc7tff?entry=ttu'
                 target="_blank"
             >
-                <Button variant="outlined" size="lg" color="brown" className="flex items-center gap-3 mt-3 mb-5">
+                <Button variant="outlined" size="sm" color="brown" className="flex items-center gap-3 mt-3 mb-5">
                     <Image src="/maps.svg" alt="Maps" width={30} height={30} />
                     <p className="text-white">Ver ubicación en el mapa</p>
                 </Button>
