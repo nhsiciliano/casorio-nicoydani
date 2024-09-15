@@ -33,7 +33,7 @@ export default function Schedule() {
                 <div className="flex flex-col items-center justify-center md:flex-row gap-8 mt-5">
                     <div>
                         <h1 className="text-[#726d5d] text-3xl">CEREMONIA</h1>
-                        <p className="text-[#726d5d] text-2xl">17:45 HS</p>
+                        <p className="text-[#726d5d] text-2xl">17:30 HS</p>
                     </div>
                     <div>
                         <h1 className="text-[#726d5d] text-3xl">RECEPCIÓN</h1>
